@@ -1,0 +1,585 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1055; Version 2009; 64bit' Language: 'en' Physical Memory: 16222 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UNI/MI/Project/QuizOrDie/QuizOrDie_UnityProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50955
+Successfully changed project path to: D:/UNI/MI/Project/QuizOrDie/QuizOrDie_UnityProject
+D:/UNI/MI/Project/QuizOrDie/QuizOrDie_UnityProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNI/MI/Project/QuizOrDie/QuizOrDie_UnityProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   27.21.14.6677
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.004144 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.389 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.5 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1838.
+Total: 3.173500 ms (FindLiveObjects: 0.377700 ms CreateObjectMapping: 0.144500 ms MarkObjects: 2.522800 ms  DeleteObjects: 0.126600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Build-A-House Workshop/Textures/Houses_Map_1A.png
+  artifactKey: Guid(c5be1dde6e43033419d373ad3c19c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Textures/Houses_Map_1A.png using Guid(c5be1dde6e43033419d373ad3c19c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a245d0027d895af58ae11b1c38430c07') in 0.147697 seconds
+  Import took 0.150874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Build-A-House Workshop/Textures/Houses_Map_1A Occlusion.png
+  artifactKey: Guid(392aa0524c7ff574b80f1c257311aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Textures/Houses_Map_1A Occlusion.png using Guid(392aa0524c7ff574b80f1c257311aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e5e146ce6b92f45b4860779eb8e91e') in 0.014710 seconds
+  Import took 0.017305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Build-A-House Workshop/Textures/Houses_Map_1A Normal.png
+  artifactKey: Guid(7ac0c3968ead99b4582bca7e3ad54c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Textures/Houses_Map_1A Normal.png using Guid(7ac0c3968ead99b4582bca7e3ad54c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6caa25cec1aa76669658c47642b4ead') in 0.048004 seconds
+  Import took 0.051075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.326076 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Housing_Examples/House_Model_1A.prefab
+  artifactKey: Guid(68bd29e1679f26945a0ae25c8dfab15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Housing_Examples/House_Model_1A.prefab using Guid(68bd29e1679f26945a0ae25c8dfab15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480c23dda4f52caa1c735c740cd896d8') in 0.075192 seconds
+  Import took 0.078943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Housing_Examples/House_Model_1B.prefab
+  artifactKey: Guid(508828747d7d19340bb0ea7ef09e973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Housing_Examples/House_Model_1B.prefab using Guid(508828747d7d19340bb0ea7ef09e973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5055aba6a90d31d337de24ff7d2ede37') in 0.044110 seconds
+  Import took 0.048517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.315758 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Floor_1A.prefab
+  artifactKey: Guid(dea3549621b21ab479cb6de35b35ce4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Floor_1A.prefab using Guid(dea3549621b21ab479cb6de35b35ce4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22883ef3556eb5c37dfde6870beaab07') in 0.020155 seconds
+  Import took 0.023945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Awning_1C.prefab
+  artifactKey: Guid(5e7cd047037439e47b62169b8daa10f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Awning_1C.prefab using Guid(5e7cd047037439e47b62169b8daa10f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156428f9e2f88b18255cd1ae12f868e8') in 0.022729 seconds
+  Import took 0.026836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Stone_Wall_1A4.prefab
+  artifactKey: Guid(6ce6374ec128cc343ab467a839008e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Stone_Wall_1A4.prefab using Guid(6ce6374ec128cc343ab467a839008e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1517f64c7e8f36e5f8508dfe96979e') in 0.023902 seconds
+  Import took 0.028497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_1A.prefab
+  artifactKey: Guid(86cc3deb390390d4e9e45f9fdaedbd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_1A.prefab using Guid(86cc3deb390390d4e9e45f9fdaedbd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bbaadae2f8870cb6f8139f47a71e60') in 0.024756 seconds
+  Import took 0.029600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Door_1B.prefab
+  artifactKey: Guid(d8484be620c8f7b479833db4cb88fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Door_1B.prefab using Guid(d8484be620c8f7b479833db4cb88fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cccc9423ce93a52b7405fb36a652d7') in 0.024874 seconds
+  Import took 0.030121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_2A.prefab
+  artifactKey: Guid(413249e6018d68c48829c2fe5d68954f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_2A.prefab using Guid(413249e6018d68c48829c2fe5d68954f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4422d6613e9e391d63c5e306a5ded39') in 0.024536 seconds
+  Import took 0.028408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Awning_1D.prefab
+  artifactKey: Guid(a73757d512f0b5940a32f3f5f4676b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Awning_1D.prefab using Guid(a73757d512f0b5940a32f3f5f4676b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7375091fc600968f420c4507deedb45a') in 0.022302 seconds
+  Import took 0.026237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Roof_1C.prefab
+  artifactKey: Guid(757239717e45ab14f9344afb880302dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Roof_1C.prefab using Guid(757239717e45ab14f9344afb880302dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e8f2c2042fd180c4f0db7890717161') in 0.025087 seconds
+  Import took 0.028817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_1B.prefab
+  artifactKey: Guid(da1e1f142f997eb4cb2c196ed63fae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_1B.prefab using Guid(da1e1f142f997eb4cb2c196ed63fae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d816b905e23f80884e377202512d72') in 0.024142 seconds
+  Import took 0.028484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Stone_Wall_1A3.prefab
+  artifactKey: Guid(9a5e984f1966efd4485fcf09a502abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Stone_Wall_1A3.prefab using Guid(9a5e984f1966efd4485fcf09a502abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b300bfa812b827d520ba094590ed0dfa') in 0.021552 seconds
+  Import took 0.025267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Stone_Wall_1A.prefab
+  artifactKey: Guid(99b1c2f6152873046b54854b0bf0c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Stone_Wall_1A.prefab using Guid(99b1c2f6152873046b54854b0bf0c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41eeacc696f8b98aa86da255f40c2f6f') in 0.025611 seconds
+  Import took 0.029155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_1C.prefab
+  artifactKey: Guid(5396a5cbdb8f9254db2b7502e27d19c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_1C.prefab using Guid(5396a5cbdb8f9254db2b7502e27d19c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a9cb29618bd0064531f113a2482ffb') in 0.023610 seconds
+  Import took 0.028143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Door_1A.prefab
+  artifactKey: Guid(b391e6050bf4e8c45ba113e9cf30566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Door_1A.prefab using Guid(b391e6050bf4e8c45ba113e9cf30566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e361a33a0a9cc5b486f38b44eb36e1e5') in 0.021661 seconds
+  Import took 0.025774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3B.prefab
+  artifactKey: Guid(21048b85dd6ac9e438f4c82041fc6451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3B.prefab using Guid(21048b85dd6ac9e438f4c82041fc6451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaecc273bcf956fc103d102bb6146020') in 0.026551 seconds
+  Import took 0.030441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Door_1B2.prefab
+  artifactKey: Guid(ffb86e15785136d44814b0a6841d146d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Door_1B2.prefab using Guid(ffb86e15785136d44814b0a6841d146d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8ea4328870ea704e3d07f2aa4cf788') in 0.022392 seconds
+  Import took 0.026994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_1A2.prefab
+  artifactKey: Guid(ba441e07d02b51b4988e0a5ecf49a1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_1A2.prefab using Guid(ba441e07d02b51b4988e0a5ecf49a1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80be7f02c2181f2c1afd4cbeefb6fd57') in 0.020668 seconds
+  Import took 0.025003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3D.prefab
+  artifactKey: Guid(d7e1ddc08941e94429e8a5f5c062c98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3D.prefab using Guid(d7e1ddc08941e94429e8a5f5c062c98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2609b9e6133966ef9ca1baedc5fe3597') in 0.024983 seconds
+  Import took 0.028744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Awning_1B.prefab
+  artifactKey: Guid(d3020486414fcfe46bffc603e09c701b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Awning_1B.prefab using Guid(d3020486414fcfe46bffc603e09c701b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f50a3a1e46dd3dd4251ecb1d643e114') in 0.022778 seconds
+  Import took 0.027572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Stone_Wall_1A2.prefab
+  artifactKey: Guid(ebb0be1804f6d4e4cb7f7af588efacfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Stone_Wall_1A2.prefab using Guid(ebb0be1804f6d4e4cb7f7af588efacfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a2a0ab764b95b14e1b6fd42b139f7e') in 0.022023 seconds
+  Import took 0.025900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Roof_1A.prefab
+  artifactKey: Guid(a394ae224bfcb7943b26ffe5cd751240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Roof_1A.prefab using Guid(a394ae224bfcb7943b26ffe5cd751240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dccd4a15f8ab9fb3e22ae7da2da8552') in 0.024922 seconds
+  Import took 0.028697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Floor_1B.prefab
+  artifactKey: Guid(75b7c806a46e90945850f9179ae642ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Floor_1B.prefab using Guid(75b7c806a46e90945850f9179ae642ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5414b84e80d3af0d7a793f5cadf6dd75') in 0.022384 seconds
+  Import took 0.027001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_1A.prefab
+  artifactKey: Guid(ccf5a502401aa7448a59caf03dda002b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_1A.prefab using Guid(ccf5a502401aa7448a59caf03dda002b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e860affeef8acc84ed8fbf3dc9aacd3f') in 0.022257 seconds
+  Import took 0.026402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/House_Steps_1B.prefab
+  artifactKey: Guid(783d39adfa100f4408a73e5e55c50c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/House_Steps_1B.prefab using Guid(783d39adfa100f4408a73e5e55c50c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113502809eb434c0817f86f37a1ed2e1') in 0.025140 seconds
+  Import took 0.029121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3C.prefab
+  artifactKey: Guid(bab11ce7ef7457b4a859bc6f54f23edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3C.prefab using Guid(bab11ce7ef7457b4a859bc6f54f23edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802f398b5ae928f67c9690d3f48af20d') in 0.023155 seconds
+  Import took 0.028269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_1B.prefab
+  artifactKey: Guid(39c54cddce168c742aec450495c64dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_1B.prefab using Guid(39c54cddce168c742aec450495c64dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6a55c3f43fb6f91ad62d51a0d585f8') in 0.023933 seconds
+  Import took 0.028035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_2A2.prefab
+  artifactKey: Guid(48451abc04419e94586af1c515b2c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_2A2.prefab using Guid(48451abc04419e94586af1c515b2c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0881844eb55f831d0022bc0e432886') in 0.032176 seconds
+  Import took 0.037559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_2B.prefab
+  artifactKey: Guid(ba624b4188e4fe644a20ccdad1e393d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_2B.prefab using Guid(ba624b4188e4fe644a20ccdad1e393d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495e743ed4c5af9dbf5bfd109681739c') in 0.022781 seconds
+  Import took 0.026908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/House_Steps_1A.prefab
+  artifactKey: Guid(95110fbefa1841141aa3fab20a1f37b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/House_Steps_1A.prefab using Guid(95110fbefa1841141aa3fab20a1f37b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bf2dfab4c5f73ccd657ad844c482f6') in 0.025505 seconds
+  Import took 0.030172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Awning_1A.prefab
+  artifactKey: Guid(dc4287b0fe5b3cd45964b4be341c7cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Awning_1A.prefab using Guid(dc4287b0fe5b3cd45964b4be341c7cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ecf7200e963089fee8781ce0857943') in 0.022592 seconds
+  Import took 0.027026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Awning_1C2.prefab
+  artifactKey: Guid(2323b612dc6127f448834c62a8c84e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Awning_1C2.prefab using Guid(2323b612dc6127f448834c62a8c84e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8f2a8e9deb1158182c129ef7367c0e') in 0.024444 seconds
+  Import took 0.029727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Group_1A.prefab
+  artifactKey: Guid(537c416f7a28266438a9c7ae72d794a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Group_1A.prefab using Guid(537c416f7a28266438a9c7ae72d794a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47186f1934db71da25357bbc94454be') in 0.023568 seconds
+  Import took 0.027546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Door_1A2.prefab
+  artifactKey: Guid(e700c965a222d524eb2a2d0d70209177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Door_1A2.prefab using Guid(e700c965a222d524eb2a2d0d70209177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c97966812a18ae64c0b126d1413176') in 0.022233 seconds
+  Import took 0.025908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Roof_1B.prefab
+  artifactKey: Guid(4396a79d54d7294499018a91b3cff3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Roof_1B.prefab using Guid(4396a79d54d7294499018a91b3cff3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edd747e86b0627e1368eee44fcd55f3') in 0.020495 seconds
+  Import took 0.025122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3A.prefab
+  artifactKey: Guid(18313e01fc4a6d542b82fe820bbb49bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3A.prefab using Guid(18313e01fc4a6d542b82fe820bbb49bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730f5418c07ae301989d6e84b973b695') in 0.024245 seconds
+  Import took 0.028992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.276154 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3E.prefab
+  artifactKey: Guid(a4f8dc376f8729e4395e0217df0e33f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3E.prefab using Guid(a4f8dc376f8729e4395e0217df0e33f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e1b6a0c5bd0fc9daeefd87b4ceb8f7') in 0.021558 seconds
+  Import took 0.025372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_Group_1A.prefab
+  artifactKey: Guid(04e99e87538f90d42ac78f89d72e9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_Group_1A.prefab using Guid(04e99e87538f90d42ac78f89d72e9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d6adaba5542125855da0a0aec83732') in 0.025404 seconds
+  Import took 0.030554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Window_1B2.prefab
+  artifactKey: Guid(349f44b2dee708c4b8c23f2f17f05296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Window_1B2.prefab using Guid(349f44b2dee708c4b8c23f2f17f05296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d26f1b84fdbed2bbd79415148743ee') in 0.022930 seconds
+  Import took 0.027438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Window_1A.prefab
+  artifactKey: Guid(0683a40fb42cb7e45b4eea825d8a9325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Window_1A.prefab using Guid(0683a40fb42cb7e45b4eea825d8a9325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d53101c0c6bcc036795b98e60ef5150') in 0.025294 seconds
+  Import took 0.030195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Window_Group_1A.prefab
+  artifactKey: Guid(39c8d1e3960d9554aa5638183993a8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Window_Group_1A.prefab using Guid(39c8d1e3960d9554aa5638183993a8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabd2e868d49431e54f58eb5219de819') in 0.020842 seconds
+  Import took 0.024413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_Group_1B.prefab
+  artifactKey: Guid(f0c3641b7252a124280be67c9bd65f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_Group_1B.prefab using Guid(f0c3641b7252a124280be67c9bd65f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca2bf1feb37c4dfd99cc8bab948750e') in 0.024759 seconds
+  Import took 0.029700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3E.prefab
+  artifactKey: Guid(a4f8dc376f8729e4395e0217df0e33f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Wedge_3E.prefab using Guid(a4f8dc376f8729e4395e0217df0e33f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e1b6a0c5bd0fc9daeefd87b4ceb8f7') in 0.021986 seconds
+  Import took 0.026388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Window_1B.prefab
+  artifactKey: Guid(deed854ac60479d409baafd20ad84f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Prefabs/Building_Supply/Wall_Window_1B.prefab using Guid(deed854ac60479d409baafd20ad84f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a73fb8183dfdf5f68786887b766249') in 0.024199 seconds
+  Import took 0.028142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.209492 seconds.
+  path: Assets/Build-A-House Workshop/Demo_Item_Display/Display_Ter.asset
+  artifactKey: Guid(158e34476f0351f4a8ae360c8c5b02f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Build-A-House Workshop/Demo_Item_Display/Display_Ter.asset using Guid(158e34476f0351f4a8ae360c8c5b02f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee4501b9c6a15d0b5c4d8526da069a2') in 0.179436 seconds
+  Import took 0.184080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1486.619257 seconds.
+  path: Assets/MC old wood free sample/scene/SampleScene2/LightingData.asset
+  artifactKey: Guid(ae5d553bc182ac44ab8b1477f6554b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/scene/SampleScene2/LightingData.asset using Guid(ae5d553bc182ac44ab8b1477f6554b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee5b147ed49ec5e9ef9929280ed2dee') in 0.016631 seconds
+  Import took 0.019754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/MC old wood free sample/scene/SampleScene2/ReflectionProbe-0.exr
+  artifactKey: Guid(ac258608fcc4187439cc2f10a2489b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/scene/SampleScene2/ReflectionProbe-0.exr using Guid(ac258608fcc4187439cc2f10a2489b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a5bb82b2edfde196d41a9b453d639d') in 0.039135 seconds
+  Import took 0.041890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.343437 seconds.
+  path: Assets/MC old wood free sample/texture/wood 0825-01_DIFFUSE.png
+  artifactKey: Guid(0211a805c48daad46abccd2c22b3ed15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/texture/wood 0825-01_DIFFUSE.png using Guid(0211a805c48daad46abccd2c22b3ed15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5b6df46308d2973c068ab186dbfb2c') in 0.010703 seconds
+  Import took 0.013517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/MC old wood free sample/texture/wood 0911-01A_DISP.png
+  artifactKey: Guid(f14e97a6c7205914686ee110c2421acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/texture/wood 0911-01A_DISP.png using Guid(f14e97a6c7205914686ee110c2421acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85944b4b27f764ae395fb08ceb14039b') in 0.009628 seconds
+  Import took 0.012545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/MC old wood free sample/texture/wood 0911-01A_NORM.png
+  artifactKey: Guid(92be5ebd558ed1944858d7852236bf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/texture/wood 0911-01A_NORM.png using Guid(92be5ebd558ed1944858d7852236bf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c05228232e4de87a9ba4ad34a865928') in 0.020322 seconds
+  Import took 0.023742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/MC old wood free sample/texture/wood 0911-01A_SPEC.png
+  artifactKey: Guid(84eee869eb9d7db45925eba50d66b9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/texture/wood 0911-01A_SPEC.png using Guid(84eee869eb9d7db45925eba50d66b9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bfec0d2e2324ca64ae6b20a6a51335') in 0.012835 seconds
+  Import took 0.015705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/MC old wood free sample/texture/wood 0825-01_NORM.png
+  artifactKey: Guid(8aa0eec0f948cb7459a9131f75bf95eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/texture/wood 0825-01_NORM.png using Guid(8aa0eec0f948cb7459a9131f75bf95eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6b134ded8feb0e14143ffc818e56b6') in 0.026882 seconds
+  Import took 0.029788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/MC old wood free sample/texture/wood 0911-01A_DIFFUSE.png
+  artifactKey: Guid(1fdeb5e69d10711418015f9190338c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/texture/wood 0911-01A_DIFFUSE.png using Guid(1fdeb5e69d10711418015f9190338c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748ae0015c1183c4298cd2e9f28c0a7b') in 0.009546 seconds
+  Import took 0.013512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/MC old wood free sample/texture/wood 0825-01_DISP.png
+  artifactKey: Guid(58a8b91b88302af44be240e9a1e3e58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/texture/wood 0825-01_DISP.png using Guid(58a8b91b88302af44be240e9a1e3e58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09e3bc94c1dd36a795213f72b3c0036') in 0.010409 seconds
+  Import took 0.013652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/MC old wood free sample/texture/wood 0825-01_SPEC.png
+  artifactKey: Guid(63721e9998b2e4a48a78131385606956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/texture/wood 0825-01_SPEC.png using Guid(63721e9998b2e4a48a78131385606956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3a5f6cb49cf2bee3bbae57815a3051') in 0.010516 seconds
+  Import took 0.013744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.787827 seconds.
+  path: Assets/MC old wood free sample/material/wood 0825-01.mat
+  artifactKey: Guid(feacb3f1aa7726e4f953137d27edccf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/material/wood 0825-01.mat using Guid(feacb3f1aa7726e4f953137d27edccf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af37dda264d3b703f4021b0248ae032') in 0.358778 seconds
+  Import took 0.362371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/MC old wood free sample/material/wood 0911-01A.mat
+  artifactKey: Guid(82e5bc0145c52f64a814cf00291a7b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC old wood free sample/material/wood 0911-01A.mat using Guid(82e5bc0145c52f64a814cf00291a7b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffc350f50de1bffb97b7e5da5b1e0bd') in 0.021934 seconds
+  Import took 0.025631 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.9 MB.
+System memory in use after: 81.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 2.531800 ms (FindLiveObjects: 0.170000 ms CreateObjectMapping: 0.044100 ms MarkObjects: 2.213100 ms  DeleteObjects: 0.103400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
