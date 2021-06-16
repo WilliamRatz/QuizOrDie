@@ -15,11 +15,11 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: -1037
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 111
+  controlID: 37
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 40
+  controlID: 46
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,27 +301,27 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 979
-    y: 73
+    y: -1007
     width: 200
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b23c0000
-      m_LastClickedID: 15538
-      m_ExpandedIDs: 9c7fffff20b0ffff5eb0ffff52fbffff6c3c0000703c0000783c00009e3c0000a23c0000ce3c0000de3c0000ee3c0000623d0000
+      m_SelectedIDs: fef8ffff
+      m_LastClickedID: -1794
+      m_ExpandedIDs: 52fbffff903c0000363d0000463d0000e83d0000fc3d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Wall_Window_1B2
-        m_OriginalName: Wall_Window_1B2
+        m_Name: Player
+        m_OriginalName: Player
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -35610
+        m_UserData: 15504
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1631
-    y: 73
+    y: -1007
     width: 288
     height: 926
   m_ViewDataDictionary: {fileID: 0}
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1181
-    y: 73
+    y: -1007
     width: 448
     height: 926
   m_ViewDataDictionary: {fileID: 0}
@@ -409,22 +409,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Build-A-House Workshop/Prefabs/Building_Supply
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Build-A-House Workshop/Prefabs/Building_Supply
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\UNI\MI\Project\QuizOrDie\QuizOrDie_UnityProject
+  m_LastProjectPath: E:\TU\MOOC\Project\QuizOrDie\QuizOrDie_UnityProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 043e0000
-    m_LastClickedID: 15876
-    m_ExpandedIDs: 00000000ec3d0000ee3d0000f03d0000f23d0000023e0000063e0000083e000000ca9a3b
+    m_SelectedIDs: 043f0000
+    m_LastClickedID: 16132
+    m_ExpandedIDs: 00000000fc3e0000fe3e0000003f0000023f0000043f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec3d0000ee3d0000f03d0000f23d0000
+    m_ExpandedIDs: 00000000fc3e0000fe3e0000003f0000023f0000043f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -504,7 +504,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 444}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 559
+    y: -521
     width: 978
     height: 440
   m_ViewDataDictionary: {fileID: 0}
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73
+    y: -1007
     width: 978
     height: 465
   m_ViewDataDictionary: {fileID: 0}
@@ -633,9 +633,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.5041475, y: 19.586113, z: 11.665146}
+    m_Target: {x: -7.4188285, y: -1.2416636, z: 3.0561194}
     speed: 2
-    m_Value: {x: -5.5041475, y: 19.586113, z: 11.665146}
+    m_Value: {x: -7.4188285, y: -1.2416636, z: 3.0561194}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -659,7 +659,7 @@ MonoBehaviour:
         m_Target: 0
         speed: 2
         m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Color: {r: 0.03135811, g: 0.8529412, b: 0.1730104, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 0, y: 0}
     yGrid:
@@ -667,7 +667,7 @@ MonoBehaviour:
         m_Target: 1
         speed: 2
         m_Value: 1
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Color: {r: 0.03135811, g: 0.8529412, b: 0.1730104, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
@@ -675,20 +675,20 @@ MonoBehaviour:
         m_Target: 0
         speed: 2
         m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Color: {r: 0.03135811, g: 0.8529412, b: 0.1730104, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09285127, y: -0.017920993, z: 0.0016720974, w: 0.99552184}
+    m_Target: {x: 0.09425111, y: -0.04776779, z: 0.004528361, w: 0.9943983}
     speed: 2
-    m_Value: {x: 0.09135747, y: -0.0179234, z: 0.0016452061, w: 0.9956555}
+    m_Value: {x: 0.094250485, y: -0.047767468, z: 0.0045283306, w: 0.9943917}
   m_Size:
-    m_Target: 23.979242
+    m_Target: 3.8364995
     speed: 2
-    m_Value: 23.979242
+    m_Value: 3.8364995
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -706,7 +706,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: 0.10121832, y: -0.34183487, z: 0.03706296, w: 0.9335632}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
