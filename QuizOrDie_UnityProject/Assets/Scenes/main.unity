@@ -421,7 +421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 31967515}
   m_Layer: 0
-  m_Name: stairs+door L6
+  m_Name: stairs_door_L6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -763,7 +763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 50325681}
   m_Layer: 0
-  m_Name: stairs+door R4
+  m_Name: stairs_door_R4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4079,7 +4079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 468200205}
   m_Layer: 0
-  m_Name: stairs+door L1
+  m_Name: stairs_door_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5049,7 +5049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 556122578}
   m_Layer: 0
-  m_Name: lvl 5
+  m_Name: lvl_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6060,7 +6060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701470871}
   m_Layer: 0
-  m_Name: stairs+door L4
+  m_Name: stairs_door_L4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6895,7 +6895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 845877755}
   m_Layer: 0
-  m_Name: lvl 1
+  m_Name: lvl_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6930,7 +6930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 862664412}
   m_Layer: 0
-  m_Name: lvl 2
+  m_Name: lvl_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7058,7 +7058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 909275586}
   m_Layer: 0
-  m_Name: lvl 6
+  m_Name: lvl_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7149,7 +7149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 938126968}
   m_Layer: 0
-  m_Name: stairs+door L3
+  m_Name: stairs_door_L3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7181,7 +7181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 939712859}
   m_Layer: 0
-  m_Name: stairs+door R3
+  m_Name: stairs_door_R3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7716,7 +7716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 992366333}
   m_Layer: 0
-  m_Name: stairs+door R1
+  m_Name: stairs_door_R1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8204,7 +8204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1067496661}
   m_Layer: 0
-  m_Name: stairs+door L0
+  m_Name: stairs_door_L0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9815,7 +9815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375417801}
   m_Layer: 0
-  m_Name: stairs+door L5
+  m_Name: stairs_door_L5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10141,7 +10141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426469064}
   m_Layer: 0
-  m_Name: stairs+door R6
+  m_Name: stairs_door_R6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10700,7 +10700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1482726912}
   m_Layer: 0
-  m_Name: stairs+door R5
+  m_Name: stairs_door_R5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11370,7 +11370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1601576694}
   m_Layer: 0
-  m_Name: lvl 3
+  m_Name: lvl_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12720,7 +12720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1740671035}
   m_Layer: 0
-  m_Name: lvl 0
+  m_Name: lvl_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13193,7 +13193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1814336267}
   m_Layer: 0
-  m_Name: lvl 4
+  m_Name: lvl_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15013,7 +15013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013681179}
   m_Layer: 0
-  m_Name: stairs+door R2
+  m_Name: stairs_door_R2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15693,7 +15693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062459720}
   m_Layer: 0
-  m_Name: stairs+door L2
+  m_Name: stairs_door_L2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15758,7 +15758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2085815389}
   m_Layer: 0
-  m_Name: stairs+door R0
+  m_Name: stairs_door_R0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
