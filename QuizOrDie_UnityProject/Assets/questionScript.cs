@@ -6,13 +6,17 @@ using TMPro;
 public class questionScript : MonoBehaviour
 {
     public GameObject[] portals;
-    public GameObject[] answerSteps;
+    private GameObject[] answerSteps;
     public int rightAnswer = 0;
     private TextMeshPro textMesh;
 
     void Start()
     {
         textMesh = GetComponent<TextMeshPro>();
+        answerSteps = new GameObject[] { this.transform.GetChild(0).gameObject,
+                                         this.transform.GetChild(1).gameObject,
+                                         this.transform.GetChild(2).gameObject,
+                                         this.transform.GetChild(3).gameObject };
     }
     // Update is called once per frame
     void Update()
@@ -51,5 +55,15 @@ public class questionScript : MonoBehaviour
         {
             portal.GetComponent<portal>().portable= true;
         }
+    }
+
+    public void setupQuestion(string[] questionAndAnswer)
+    {
+        Debug.Log(questionAndAnswer.Length);
+        textMesh.text = questionAndAnswer[0];
+        answerSteps[0].GetComponentInChildren<TextMeshPro>().text = questionAndAnswer[1];
+        answerSteps[1].GetComponentInChildren<TextMeshPro>().text = questionAndAnswer[2];
+        answerSteps[2].GetComponentInChildren<TextMeshPro>().text = questionAndAnswer[3];
+        answerSteps[3].GetComponentInChildren<TextMeshPro>().text = questionAndAnswer[4];
     }
 }

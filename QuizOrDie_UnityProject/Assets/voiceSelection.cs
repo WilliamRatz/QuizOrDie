@@ -11,19 +11,12 @@ public class voiceSelection : MonoBehaviour
 {
     private KeywordRecognizer keywordRecognizer;
     private Dictionary<string, Action> actions = new Dictionary<string, Action>();
-    private AudioSource test;
 
     // Start is called before the first frame update
     void Start()
     {
         actions.Add("help", voiceHelp);
         actions.Add("nice", voiceNice);
-
-        
-        test = GetComponent<AudioSource>();
-        test.clip = Microphone.Start(Microphone.devices[0].ToString(), true, 10, AudioSettings.outputSampleRate);
-        while(!(Microphone.GetPosition(null) > 0)) {}
-        test.Play();
         
         keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray(), ConfidenceLevel.Medium);
         keywordRecognizer.OnPhraseRecognized += OnPhraseRecognized;
@@ -32,7 +25,6 @@ public class voiceSelection : MonoBehaviour
     void Update()
     {
         Debug.Log(keywordRecognizer.IsRunning);
-        Debug.Log(Microphone.devices[0]);
     }
 
     private void OnPhraseRecognized(PhraseRecognizedEventArgs args)
