@@ -2,13 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class questionScript : MonoBehaviour
 {
+    public bool lastStage = false;
     public GameObject[] portals;
     private GameObject[] answerSteps;
     public int rightAnswer = 0;
+    public int stage = 0;
     private TextMeshPro textMesh;
+    private bool done = false;
 
     void Start()
     {
@@ -21,20 +25,34 @@ public class questionScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i<answerSteps.Length; ++i)
-        { 
-            if(answerSteps[i].transform.position.y <= -1.75)
+        if (done)
+            return;
+
+        //check speach
+        if (voiceAnswerFalse())
+        {
+            looseScreen();
+            return;
+        }
+        if (voiceAnswerTrue())
+        {
+            wonQuestion();
+        }
+
+        //check blocks
+        for (int i = 0; i < answerSteps.Length; ++i)
+        {
+            if (answerSteps[i].GetComponentInChildren<stepManager>().movement <= -0.6)
             {
-                Debug.Log(answerSteps[i].transform.position.y);
-                if(i == rightAnswer)
+                if (i == rightAnswer)
                 {
-                    textMesh.text = "Right";
-                    enablePortals();
+                    wonQuestion();
                 }
                 else
                 {
-                    textMesh.text = "Wrong";
+                    looseScreen();
                 }
+                
                 textMesh.text += "\nAnswer: " + answerSteps[rightAnswer].GetComponentInChildren<TextMeshPro>().text;
                 turnOffAllTriggers();
                 return;
@@ -42,28 +60,57 @@ public class questionScript : MonoBehaviour
         }
     }
 
+    private void wonQuestion()
+    {
+        textMesh.text = "Right";
+        if (lastStage)
+        {
+            winScreen();
+        }
+        else
+        {
+            enablePortals();
+            GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().resetAnswer();
+        }
+    }
+
+    private bool voiceAnswerFalse()
+    {
+        return GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer == Answer.False &&
+                GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().questionAnswer == stage;
+    }
+
+    private bool voiceAnswerTrue()
+    {
+        return  GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer == Answer.True &&
+                 GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().questionAnswer == stage;
+    }
+
     void turnOffAllTriggers()
     {
-        foreach(GameObject answer in answerSteps)
+        foreach (GameObject answer in answerSteps)
         {
             answer.transform.Find("collider").gameObject.GetComponent<BoxCollider>().enabled = false;
         }
     }
     void enablePortals()
     {
+        done = true;
         foreach (GameObject portal in portals)
         {
-            portal.GetComponent<portal>().portable= true;
+            portal.GetComponent<portal>().portable = true;
         }
     }
 
-    public void setupQuestion(string[] questionAndAnswer)
+    void looseScreen()
     {
-        Debug.Log(questionAndAnswer.Length);
-        textMesh.text = questionAndAnswer[0];
-        answerSteps[0].GetComponentInChildren<TextMeshPro>().text = questionAndAnswer[1];
-        answerSteps[1].GetComponentInChildren<TextMeshPro>().text = questionAndAnswer[2];
-        answerSteps[2].GetComponentInChildren<TextMeshPro>().text = questionAndAnswer[3];
-        answerSteps[3].GetComponentInChildren<TextMeshPro>().text = questionAndAnswer[4];
+        done = true;
+        textMesh.text = "Wrong";
+        throw new NotImplementedException();
+    }
+    private void winScreen()
+    {
+        done = true;
+        throw new NotImplementedException();
     }
 }
