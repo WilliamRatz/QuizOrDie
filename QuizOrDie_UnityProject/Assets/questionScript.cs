@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
-
+using UnityEngine.SceneManagement;
 public class questionScript : MonoBehaviour
 {
     public bool lastStage = false;
@@ -106,11 +106,11 @@ public class questionScript : MonoBehaviour
     {
         done = true;
         textMesh.text = "Wrong";
-        throw new NotImplementedException();
+        SceneManager.LoadScene("YouLost");
     }
     private void winScreen()
     {
         done = true;
-        throw new NotImplementedException();
+        SceneManager.LoadScene("YouWon");
     }
 }

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b4740c0d5ded2e04ab2b0e64b13ebcdd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Who asks Satan
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b99794e4caecf2645b884152ce27a339, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
