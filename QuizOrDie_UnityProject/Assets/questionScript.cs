@@ -13,6 +13,7 @@ public class questionScript : MonoBehaviour
     public int stage = 0;
     private TextMeshPro textMesh;
     private bool done = false;
+    private bool voiceAnswered = false;
 
     void Start()
     {
@@ -29,14 +30,23 @@ public class questionScript : MonoBehaviour
             return;
 
         //check speach
-        if (voiceAnswerFalse())
+        voiceRecognition();
+        if (voiceAnswered)
         {
-            looseScreen();
-            return;
-        }
-        if (voiceAnswerTrue())
-        {
-            wonQuestion();
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                if (voiceAnswerTrue())
+                {
+                    wonQuestion();
+                    turnOffAllTriggers();
+                    return;
+                }
+                else
+                {
+                    looseScreen();
+                    return;
+                }
+            }
         }
 
         //check blocks
@@ -52,12 +62,53 @@ public class questionScript : MonoBehaviour
                 {
                     looseScreen();
                 }
-                
+
                 textMesh.text += "\nAnswer: " + answerSteps[rightAnswer].GetComponentInChildren<TextMeshPro>().text;
                 turnOffAllTriggers();
                 return;
             }
         }
+    }
+
+    private void voiceRecognition()
+    {
+        if (validAnswer())
+        {
+            if (stage != 2)
+            {
+                for (int i = 0; i < answerSteps.Length; ++i)
+                {
+                    if (answerSteps[i].GetComponentInChildren<TextMeshPro>().text == voiceSelection.answerText)
+                    {
+                        answerSteps[i].GetComponentInChildren<TextMeshPro>().color = new Color(255, 0, 0);
+                        voiceAnswered = true;
+                    }
+                    else
+                    {
+                        answerSteps[i].GetComponentInChildren<TextMeshPro>().color = new Color(255, 255, 255);
+                    }
+                }
+            }
+            else
+            {
+                for (int i = 0; i < answerSteps.Length; ++i)
+                {
+                    if (answerSteps[i].GetComponentInChildren<TextMeshPro>().text == "13" && voiceSelection.answerText == "thirteen" ||
+                        answerSteps[i].GetComponentInChildren<TextMeshPro>().text == "7" && voiceSelection.answerText == "seven" ||
+                        answerSteps[i].GetComponentInChildren<TextMeshPro>().text == "15" && voiceSelection.answerText == "fifteen" ||
+                        answerSteps[i].GetComponentInChildren<TextMeshPro>().text == "20" && voiceSelection.answerText == "twenty")
+                    {
+                        answerSteps[i].GetComponentInChildren<TextMeshPro>().color = new Color(255, 0, 0);
+                        voiceAnswered = true;
+                    }
+                    else
+                    {
+                        answerSteps[i].GetComponentInChildren<TextMeshPro>().color = new Color(255, 255, 255);
+                    }
+                }
+            }
+        }
+
     }
 
     private void wonQuestion()
@@ -74,15 +125,16 @@ public class questionScript : MonoBehaviour
         }
     }
 
-    private bool voiceAnswerFalse()
+    private bool validAnswer()
     {
-        return GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer == Answer.False &&
+        return (GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer == Answer.False ||
+                GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer == Answer.True) &&
                 GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().questionAnswer == stage;
     }
 
     private bool voiceAnswerTrue()
     {
-        return  GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer == Answer.True &&
+        return GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer == Answer.True &&
                  GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().questionAnswer == stage;
     }
 

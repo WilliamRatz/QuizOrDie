@@ -12,6 +12,8 @@ public class portal : MonoBehaviour
         if (!portable)
             return;
 
+        ++CamControler.counter;
+
         if (collision.gameObject.layer == 6 /*Layer Player*/)
         {
             collision.gameObject.transform.position = endPortal.transform.position + transform.InverseTransformDirection(Vector3.right);

@@ -19,18 +19,18 @@ public class voiceSelection : MonoBehaviour
     private Dictionary<string, Action> actions = new Dictionary<string, Action>();
     public int questionAnswer = -1;
     public Answer answer = Answer.None;
-    public String answerText = "";
+    public static String answerText = "";
 
     // Start is called before the first frame update
     void Start()
     {
-        actions.Add("carrots", rightAnswer);
+        actions.Add("carrot", rightAnswer);
         actions.Add("apple", wrongAnswer);
         actions.Add("banana", wrongAnswer);
-        actions.Add("watermelone", wrongAnswer);
+        actions.Add("lemon", wrongAnswer);
 
-        actions.Add("seven", rightAnswer);
-        actions.Add("thirteen", wrongAnswer);
+        actions.Add("thirteen", rightAnswer);
+        actions.Add("seven", wrongAnswer);
         actions.Add("fifteen", wrongAnswer);
         actions.Add("twenty", wrongAnswer);
 
@@ -45,14 +45,14 @@ public class voiceSelection : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(keywordRecognizer.IsRunning);
+        Debug.Log(answerText);
     }
 
     private void OnPhraseRecognized(PhraseRecognizedEventArgs args)
     {
         answerText = args.text;
 
-        if(answerText == "carrots" || answerText == "apple" || answerText == "banana" || answerText == "watermelone")
+        if(answerText == "carrot" || answerText == "apple" || answerText == "banana" || answerText == "lemon")
         {
             questionAnswer = 0;
         }else if (answerText == "penis" || answerText == "toe" || answerText == "finger" || answerText == "ear")
