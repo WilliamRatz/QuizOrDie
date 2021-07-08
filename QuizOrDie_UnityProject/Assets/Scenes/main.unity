@@ -929,8 +929,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: If you would get cut off one of the following body parts. Which would cause
-    you the fastest death?
+  m_text: If one of the following bodyparts gets cut off. Which would cause you the
+    fastest death?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 73789cc64ca08be498349bf240cd8f55, type: 2}
   m_sharedMaterial: {fileID: 434187797906750094, guid: 73789cc64ca08be498349bf240cd8f55, type: 2}
@@ -5707,7 +5707,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.72, y: -4.45}
+  m_AnchoredPosition: {x: -0.72, y: -4.26}
   m_SizeDelta: {x: 20.6341, y: 4.7305}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1473685875
@@ -5732,12 +5732,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Instructions
 
-    -move using arrows
+    -move using arrows , jump using spacebar
 
-    -select by standing on top of
-    the answer
+    -select
+    by standing on top of the answer
 
     -OR select using voice to say the answer
+
+    -confirm
+    by hitting enter
 
 
 
