@@ -14,7 +14,6 @@ public class questionScript : MonoBehaviour
     private TextMeshPro textMesh;
     private bool done = false;
     private bool voiceAnswered = false;
-
     void Start()
     {
         textMesh = GetComponent<TextMeshPro>();
