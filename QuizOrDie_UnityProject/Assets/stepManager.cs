@@ -1,15 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class stepManager : MonoBehaviour
 {
-    private float speed = 0.002f;
-    public float movement = 0f;
+    [HideInInspector]
+    public bool triggered = false;
+    [HideInInspector]
+    public string text;
+    [HideInInspector]
+    public TextMeshPro textObject;
 
-    void OnTriggerStay(Collider c)
+    private void Start()
     {
-        movement -= speed;
-        this.transform.parent.gameObject.transform.position -= Vector3.up * speed;
+        textObject = transform.GetChild(0).gameObject.GetComponent<TextMeshPro>();
+        text = textObject.text;
+    }
+
+    void OnTriggerEnter(Collider c)
+    {
+        selectElement();
+    }
+
+    void OnTriggerExit(Collider c)
+    {
+        deselectElement();
+    }
+
+    public void selectElement()
+    {
+        textObject.color = new Color(255, 0, 0);
+        triggered = true;
+    }
+
+    public void deselectElement()
+    {
+        textObject.color = new Color(255, 255, 255);
+        triggered = false;
     }
 }

@@ -29,47 +29,32 @@ public class questionScript : MonoBehaviour
             return;
 
         //check speach
-        voiceRecognition();
-        if (voiceAnswered)
+        voiceSelection();
+
+        if (Input.GetKeyDown(KeyCode.Return))
         {
-            if (Input.GetKeyDown(KeyCode.Return))
+            for (int i = 0; i < answerSteps.Length; ++i)
             {
-                if (voiceAnswerTrue())
+                if (answerSteps[i].GetComponentInChildren<stepManager>().triggered == true)
                 {
-                    wonQuestion();
+                    if (i == rightAnswer)
+                    {
+                        wonQuestion();
+                    }
+                    else
+                    {
+                        looseScreen();
+                    }
+
+                    textMesh.text += "\nAnswer: " + answerSteps[rightAnswer].GetComponentInChildren<TextMeshPro>().text;
                     turnOffAllTriggers();
                     return;
                 }
-                else
-                {
-                    looseScreen();
-                    return;
-                }
-            }
-        }
-
-        //check blocks
-        for (int i = 0; i < answerSteps.Length; ++i)
-        {
-            if (answerSteps[i].GetComponentInChildren<stepManager>().movement <= -0.6)
-            {
-                if (i == rightAnswer)
-                {
-                    wonQuestion();
-                }
-                else
-                {
-                    looseScreen();
-                }
-
-                textMesh.text += "\nAnswer: " + answerSteps[rightAnswer].GetComponentInChildren<TextMeshPro>().text;
-                turnOffAllTriggers();
-                return;
             }
         }
     }
 
-    private void voiceRecognition()
+    private void voiceSelection()
     {
         if (validAnswer())
         {
@@ -77,14 +62,13 @@ public class questionScript : MonoBehaviour
             {
                 for (int i = 0; i < answerSteps.Length; ++i)
                 {
-                    if (answerSteps[i].GetComponentInChildren<TextMeshPro>().text == voiceSelection.answerText)
+                    if (answerSteps[i].GetComponentInChildren<stepManager>().text == global::voiceSelection.answerText)
                     {
-                        answerSteps[i].GetComponentInChildren<TextMeshPro>().color = new Color(255, 0, 0);
-                        voiceAnswered = true;
+                        answerSteps[i].GetComponentInChildren<stepManager>().selectElement();
                     }
                     else
                     {
-                        answerSteps[i].GetComponentInChildren<TextMeshPro>().color = new Color(255, 255, 255);
+                        answerSteps[i].GetComponentInChildren<stepManager>().deselectElement();
                     }
                 }
             }
@@ -92,24 +76,22 @@ public class questionScript : MonoBehaviour
             {
                 for (int i = 0; i < answerSteps.Length; ++i)
                 {
-                    if (answerSteps[i].GetComponentInChildren<TextMeshPro>().text == "13" && voiceSelection.answerText == "thirteen" ||
-                        answerSteps[i].GetComponentInChildren<TextMeshPro>().text == "7" && voiceSelection.answerText == "seven" ||
-                        answerSteps[i].GetComponentInChildren<TextMeshPro>().text == "15" && voiceSelection.answerText == "fifteen" ||
-                        answerSteps[i].GetComponentInChildren<TextMeshPro>().text == "20" && voiceSelection.answerText == "twenty")
+                    if (answerSteps[i].GetComponentInChildren<stepManager>().text == "13" && global::voiceSelection.answerText == "thirteen" ||
+                        answerSteps[i].GetComponentInChildren<stepManager>().text == "7" && global::voiceSelection.answerText == "seven" ||
+                        answerSteps[i].GetComponentInChildren<stepManager>().text == "15" && global::voiceSelection.answerText == "fifteen" ||
+                        answerSteps[i].GetComponentInChildren<stepManager>().text == "20" && global::voiceSelection.answerText == "twenty")
                     {
-                        answerSteps[i].GetComponentInChildren<TextMeshPro>().color = new Color(255, 0, 0);
-                        voiceAnswered = true;
+                        answerSteps[i].GetComponentInChildren<stepManager>().selectElement();
                     }
                     else
                     {
-                        answerSteps[i].GetComponentInChildren<TextMeshPro>().color = new Color(255, 255, 255);
+                        answerSteps[i].GetComponentInChildren<stepManager>().deselectElement();
                     }
                 }
             }
         }
 
     }
-
     private void wonQuestion()
     {
         textMesh.text = "Right";
@@ -123,25 +105,17 @@ public class questionScript : MonoBehaviour
             GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().resetAnswer();
         }
     }
-
     private bool validAnswer()
     {
         return (GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer == Answer.False ||
                 GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer == Answer.True) &&
                 GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().questionAnswer == stage;
     }
-
-    private bool voiceAnswerTrue()
-    {
-        return GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer == Answer.True &&
-                 GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().questionAnswer == stage;
-    }
-
     void turnOffAllTriggers()
     {
         foreach (GameObject answer in answerSteps)
         {
-            answer.transform.Find("collider").gameObject.GetComponent<BoxCollider>().enabled = false;
+            answer.GetComponent<BoxCollider>().enabled = false;
         }
     }
     void enablePortals()
@@ -152,7 +126,6 @@ public class questionScript : MonoBehaviour
             portal.GetComponent<portal>().portable = true;
         }
     }
-
     void looseScreen()
     {
         done = true;
