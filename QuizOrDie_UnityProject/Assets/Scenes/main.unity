@@ -197,7 +197,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 4.1470757, y: 0, z: 6.011091, w: 1.7777225}
+  m_margin: {x: 4.1470757, y: 0, z: 6.011091, w: 2.7404585}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -677,8 +677,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: If you would get cut off one of the following body parts. Which would cause
-    you the fastest death?
+  m_text: If one of the following bodyparts gets cut off. Which would cause you the
+    fastest death?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 73789cc64ca08be498349bf240cd8f55, type: 2}
   m_sharedMaterial: {fileID: 434187797906750094, guid: 73789cc64ca08be498349bf240cd8f55, type: 2}
@@ -713,7 +713,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -741,7 +741,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 2.7733645, y: 0, z: 3.981749, w: 1.7777225}
+  m_margin: {x: 2.7733645, y: 0, z: 3.981749, w: 3.0814314}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5409,7 +5409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.72, y: -4.45}
+  m_AnchoredPosition: {x: -0.72, y: -4.26}
   m_SizeDelta: {x: 20.6341, y: 4.7305}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1473685875
@@ -5434,14 +5434,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Instructions
 
-    - move using arrows
 
-    - select by standing at the
-    answer
+    - move using arrows , jump using spacebar
+
+    - select
+    by standing on top of the answer
 
     - OR select using voice to say the answer
 
-    - confirme with enter
+    -
+    confirm by hitting enter
 
 
 
@@ -5508,7 +5510,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -0.7804558, z: -0.06206417, w: -0.33255625}
+  m_margin: {x: 0, y: -0.22036219, z: -0.06206417, w: -0.33255625}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7409,7 +7411,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -7437,7 +7439,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 2.669177, y: 0, z: 3.2437973, w: 1.7777225}
+  m_margin: {x: 2.669177, y: 0, z: 3.2437973, w: 3.1444092}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

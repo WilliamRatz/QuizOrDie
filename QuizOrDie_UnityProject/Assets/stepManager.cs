@@ -30,6 +30,8 @@ public class stepManager : MonoBehaviour
 
     public void selectElement()
     {
+        transform.parent.GetComponent<questionScript>().deselectAll();
+        GameObject.Find("VoiceRecognizer").GetComponent<voiceSelection>().answer = Answer.None;
         textObject.color = new Color(255, 0, 0);
         triggered = true;
     }

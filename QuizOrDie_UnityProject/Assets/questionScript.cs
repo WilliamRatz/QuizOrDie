@@ -118,6 +118,14 @@ public class questionScript : MonoBehaviour
             answer.GetComponent<BoxCollider>().enabled = false;
         }
     }
+
+    public void deselectAll()
+    {
+        foreach (GameObject answer in answerSteps)
+        {
+            answer.GetComponent<stepManager>().deselectElement();
+        }
+    }
     void enablePortals()
     {
         done = true;
