@@ -35,6 +35,7 @@ public class Timer : MonoBehaviour
         cdown=true;
         yield return new WaitForSeconds(1);
         timeLeft -=1;
+        timeLeft2 -=1;
 
         if(timeLeft<10){
             textDisplay.GetComponent<Text>().text ="00:0"+ timeLeft;
