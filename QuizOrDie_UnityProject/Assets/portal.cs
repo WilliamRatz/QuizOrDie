@@ -12,6 +12,8 @@ public class portal : MonoBehaviour
         if (!portable)
             return;
 
+
+        Timer.startGame = true;
         ++CamControler.counter;
 
         if (collision.gameObject.layer == 6 /*Layer Player*/)

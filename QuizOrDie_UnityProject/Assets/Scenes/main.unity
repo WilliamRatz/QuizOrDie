@@ -5082,25 +5082,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portable: 1
   endPortal: {fileID: 242630724}
---- !u!1 &1243378108 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 157512, guid: d8484be620c8f7b479833db4cb88fdad, type: 3}
-  m_PrefabInstance: {fileID: 807559866}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1243378112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1243378108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffb3d0732fb1f094faccb9cac187e002, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  portable: 0
-  endPortal: {fileID: 44864106}
 --- !u!1 &1280351709
 GameObject:
   m_ObjectHideFlags: 0
@@ -5435,12 +5416,12 @@ MonoBehaviour:
   m_text: 'Instructions
 
 
-    - move using arrows , jump using spacebar
+    - move using arrows, jump using spacebar
 
     - select
-    by standing on top of the answer
+    by standing on the answer
 
-    - OR select using voice to say the answer
+    - OR select using voice by saying  the answer
 
     -
     confirm by hitting enter
@@ -6329,7 +6310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 739291422}
-  timeLeft: 50
+  timeLeft: 80
   cdown: 0
 --- !u!4 &1592166425
 Transform:
