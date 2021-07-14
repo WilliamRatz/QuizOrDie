@@ -6,37 +6,16 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     public GameObject textDisplay;
-    public int timeLeft=50;
+    public int timeLeft=80;
     public bool cdown =false;
+    public int timeLeft2 = 20;
     public static bool startGame = false;
   
 
     void Start()
     {
-        if (timeLeft > 59)
-        {
-            textDisplay.GetComponent<Text>().text = ((int)(timeLeft / 60)).ToString();
-
-            if (timeLeft < 10)
-            {
-                textDisplay.GetComponent<Text>().text += ":0" + timeLeft % 60;
-            }
-            else
-            {
-                textDisplay.GetComponent<Text>().text += ":" + timeLeft % 60;
-            }
-        }
-        else
-        {
-            if (timeLeft % 60 < 10)
-            {
-                textDisplay.GetComponent<Text>().text = "0:0" + timeLeft % 60;
-            }
-            else
-            {
-                textDisplay.GetComponent<Text>().text = "0:" + timeLeft % 60;
-            }
-        }
+         
+       textDisplay.GetComponent<Text>().text ="01:"+ timeLeft2;
     }
 
     void Update(){
@@ -57,28 +36,13 @@ public class Timer : MonoBehaviour
         yield return new WaitForSeconds(1);
         timeLeft -=1;
 
-        if(timeLeft > 59)
-        {
-            textDisplay.GetComponent<Text>().text = ((int)(timeLeft/60)).ToString();
-
-            if (timeLeft < 10)
-            {
-                textDisplay.GetComponent<Text>().text += ":0" + timeLeft%60;
-            }
-            else{
-                textDisplay.GetComponent<Text>().text += ":" + timeLeft % 60;
-            }
+        if(timeLeft<10){
+            textDisplay.GetComponent<Text>().text ="00:0"+ timeLeft;
         }
-        else
-        {
-            if (timeLeft < 10)
-            {
-                textDisplay.GetComponent<Text>().text += ":0" + timeLeft % 60;
-            }
-            else
-            {
-                textDisplay.GetComponent<Text>().text += ":" + timeLeft % 60;
-            }
+        else if(timeLeft<60) {
+        textDisplay.GetComponent<Text>().text ="00:"+ timeLeft;}
+        else{
+            textDisplay.GetComponent<Text>().text ="01:"+ timeLeft2;
         }
         
         cdown=false;
